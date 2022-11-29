@@ -10,6 +10,5 @@ public class use_webdriver_interface{
 		System.out.println("\n********************\n\n");
 		wd.Ie();
 		System.out.println("\n********************\n\n");
-		
 	}
 }
