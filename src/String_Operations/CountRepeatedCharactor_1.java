@@ -31,23 +31,6 @@ public class CountRepeatedCharactor_1 {
 		}
 	}
 	
-	public void Method_2() {
-		System.out.println("String Array: ");
-		for(i = 0; i<S.length(); i++) {
-			System.out.println("SAM2: "+i+" "+SAM2[i]);
-			char c = S.charAt(i);
-			if(Character.isAlphabetic(c)) {
-				if(c == S.charAt(i+1) && i<=(S.length()-1)) {
-					Chars[i] = c; 
-				}
-			}
-		}
-		
-		i=0;
-		while(i<Chars.length) {
-			System.out.println(S.charAt(i));
-		}
-	}
 	
 
 	public static void main(String args[]) {
@@ -55,11 +38,6 @@ public class CountRepeatedCharactor_1 {
 		CountRepeatedCharactor_1 cr = new CountRepeatedCharactor_1();
 		
 		cr.Method_1();
-		cr.Method_2();
-		
-		
-		
-		
 		
 	}
 }
